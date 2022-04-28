@@ -1,0 +1,8 @@
+prefix=/home/melissa/Documentos/manchester/puzzlebot/devel
+
+Name: p2p
+Description: Description of p2p
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
