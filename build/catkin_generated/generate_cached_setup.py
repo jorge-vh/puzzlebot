@@ -19,9 +19,9 @@ except ImportError:
             break
     from catkin.environment_cache import generate_environment_script
 
-code = generate_environment_script('/home/melissa/Documentos/manchester/puzzlebot/devel/env.sh')
+code = generate_environment_script('/media/javh/272819b5-376d-43c6-be18-84a0d64122c6/javh/Documentos/puzzlebot/devel/env.sh')
 
-output_filename = '/home/melissa/Documentos/manchester/puzzlebot/build/catkin_generated/setup_cached.sh'
+output_filename = '/media/javh/272819b5-376d-43c6-be18-84a0d64122c6/javh/Documentos/puzzlebot/build/catkin_generated/setup_cached.sh'
 with open(output_filename, 'w') as f:
     # print('Generate script for cached setup "%s"' % output_filename)
     f.write('\n'.join(code))

@@ -2,7 +2,7 @@
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/melissa/Documentos/manchester/puzzlebot/install")
+  set(CMAKE_INSTALL_PREFIX "/media/javh/272819b5-376d-43c6-be18-84a0d64122c6/javh/Documentos/puzzlebot/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -39,7 +39,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/melissa/Documentos/manchester/puzzlebot/build/gtest/googlemock/gtest/cmake_install.cmake")
+  include("/media/javh/272819b5-376d-43c6-be18-84a0d64122c6/javh/Documentos/puzzlebot/build/gtest/googlemock/gtest/cmake_install.cmake")
 
 endif()
 

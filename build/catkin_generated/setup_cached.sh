@@ -7,7 +7,9 @@
 # new environment variables
 
 # modified environment variables
-export CMAKE_PREFIX_PATH="/home/melissa/Documentos/manchester/puzzlebot/devel:$CMAKE_PREFIX_PATH"
-export PWD='/home/melissa/Documentos/manchester/puzzlebot/build'
-export ROSLISP_PACKAGE_DIRECTORIES='/home/melissa/Documentos/manchester/puzzlebot/devel/share/common-lisp'
-export ROS_PACKAGE_PATH="/home/melissa/Documentos/manchester/puzzlebot/src:$ROS_PACKAGE_PATH"
+export CMAKE_PREFIX_PATH='/media/javh/272819b5-376d-43c6-be18-84a0d64122c6/javh/Documentos/puzzlebot/devel:/opt/ros/melodic'
+export LD_LIBRARY_PATH='/opt/ros/melodic/lib'
+export PKG_CONFIG_PATH='/opt/ros/melodic/lib/pkgconfig'
+export PWD='/media/javh/272819b5-376d-43c6-be18-84a0d64122c6/javh/Documentos/puzzlebot/build'
+export ROSLISP_PACKAGE_DIRECTORIES='/media/javh/272819b5-376d-43c6-be18-84a0d64122c6/javh/Documentos/puzzlebot/devel/share/common-lisp'
+export ROS_PACKAGE_PATH='/media/javh/272819b5-376d-43c6-be18-84a0d64122c6/javh/Documentos/puzzlebot/src:/opt/ros/melodic/share'

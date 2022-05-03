@@ -1,24 +1,24 @@
 Determining if the pthread_create exist failed with the following output:
-Change Dir: /home/melissa/Documentos/manchester/puzzlebot/build/CMakeFiles/CMakeTmp
+Change Dir: /media/javh/272819b5-376d-43c6-be18-84a0d64122c6/javh/Documentos/puzzlebot/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_46b25/fast"
-/usr/bin/make -f CMakeFiles/cmTC_46b25.dir/build.make CMakeFiles/cmTC_46b25.dir/build
-make[1]: se entra en el directorio '/home/melissa/Documentos/manchester/puzzlebot/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_46b25.dir/CheckSymbolExists.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_46b25.dir/CheckSymbolExists.c.o   -c /home/melissa/Documentos/manchester/puzzlebot/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
-Linking C executable cmTC_46b25
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_46b25.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_46b25.dir/CheckSymbolExists.c.o  -o cmTC_46b25 
-CMakeFiles/cmTC_46b25.dir/CheckSymbolExists.c.o: En la función `main':
+Run Build Command:"/usr/bin/make" "cmTC_3b55a/fast"
+/usr/bin/make -f CMakeFiles/cmTC_3b55a.dir/build.make CMakeFiles/cmTC_3b55a.dir/build
+make[1]: se entra en el directorio '/media/javh/272819b5-376d-43c6-be18-84a0d64122c6/javh/Documentos/puzzlebot/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_3b55a.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_3b55a.dir/CheckSymbolExists.c.o   -c /media/javh/272819b5-376d-43c6-be18-84a0d64122c6/javh/Documentos/puzzlebot/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_3b55a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3b55a.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_3b55a.dir/CheckSymbolExists.c.o  -o cmTC_3b55a 
+CMakeFiles/cmTC_3b55a.dir/CheckSymbolExists.c.o: En la función `main':
 CheckSymbolExists.c:(.text+0x1b): referencia a `pthread_create' sin definir
 collect2: error: ld returned 1 exit status
-CMakeFiles/cmTC_46b25.dir/build.make:97: fallo en las instrucciones para el objetivo 'cmTC_46b25'
-make[1]: *** [cmTC_46b25] Error 1
-make[1]: se sale del directorio '/home/melissa/Documentos/manchester/puzzlebot/build/CMakeFiles/CMakeTmp'
-Makefile:126: fallo en las instrucciones para el objetivo 'cmTC_46b25/fast'
-make: *** [cmTC_46b25/fast] Error 2
+CMakeFiles/cmTC_3b55a.dir/build.make:97: fallo en las instrucciones para el objetivo 'cmTC_3b55a'
+make[1]: *** [cmTC_3b55a] Error 1
+make[1]: se sale del directorio '/media/javh/272819b5-376d-43c6-be18-84a0d64122c6/javh/Documentos/puzzlebot/build/CMakeFiles/CMakeTmp'
+Makefile:126: fallo en las instrucciones para el objetivo 'cmTC_3b55a/fast'
+make: *** [cmTC_3b55a/fast] Error 2
 
-File /home/melissa/Documentos/manchester/puzzlebot/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+File /media/javh/272819b5-376d-43c6-be18-84a0d64122c6/javh/Documentos/puzzlebot/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
 /* */
 #include <pthread.h>
 
@@ -34,22 +34,22 @@ int main(int argc, char** argv)
 }
 
 Determining if the function pthread_create exists in the pthreads failed with the following output:
-Change Dir: /home/melissa/Documentos/manchester/puzzlebot/build/CMakeFiles/CMakeTmp
+Change Dir: /media/javh/272819b5-376d-43c6-be18-84a0d64122c6/javh/Documentos/puzzlebot/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_5af6c/fast"
-/usr/bin/make -f CMakeFiles/cmTC_5af6c.dir/build.make CMakeFiles/cmTC_5af6c.dir/build
-make[1]: se entra en el directorio '/home/melissa/Documentos/manchester/puzzlebot/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_5af6c.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_5af6c.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
-Linking C executable cmTC_5af6c
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5af6c.dir/link.txt --verbose=1
-/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_5af6c.dir/CheckFunctionExists.c.o  -o cmTC_5af6c -lpthreads 
+Run Build Command:"/usr/bin/make" "cmTC_9938d/fast"
+/usr/bin/make -f CMakeFiles/cmTC_9938d.dir/build.make CMakeFiles/cmTC_9938d.dir/build
+make[1]: se entra en el directorio '/media/javh/272819b5-376d-43c6-be18-84a0d64122c6/javh/Documentos/puzzlebot/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_9938d.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_9938d.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_9938d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9938d.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_9938d.dir/CheckFunctionExists.c.o  -o cmTC_9938d -lpthreads 
 /usr/bin/ld: no se puede encontrar -lpthreads
 collect2: error: ld returned 1 exit status
-CMakeFiles/cmTC_5af6c.dir/build.make:97: fallo en las instrucciones para el objetivo 'cmTC_5af6c'
-make[1]: *** [cmTC_5af6c] Error 1
-make[1]: se sale del directorio '/home/melissa/Documentos/manchester/puzzlebot/build/CMakeFiles/CMakeTmp'
-Makefile:126: fallo en las instrucciones para el objetivo 'cmTC_5af6c/fast'
-make: *** [cmTC_5af6c/fast] Error 2
+CMakeFiles/cmTC_9938d.dir/build.make:97: fallo en las instrucciones para el objetivo 'cmTC_9938d'
+make[1]: *** [cmTC_9938d] Error 1
+make[1]: se sale del directorio '/media/javh/272819b5-376d-43c6-be18-84a0d64122c6/javh/Documentos/puzzlebot/build/CMakeFiles/CMakeTmp'
+Makefile:126: fallo en las instrucciones para el objetivo 'cmTC_9938d/fast'
+make: *** [cmTC_9938d/fast] Error 2
 
 

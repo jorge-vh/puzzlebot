@@ -67,14 +67,14 @@ set(p2p_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(p2p_SOURCE_PREFIX /home/melissa/Documentos/manchester/puzzlebot/src/p2p)
-  set(p2p_DEVEL_PREFIX /home/melissa/Documentos/manchester/puzzlebot/devel)
+  set(p2p_SOURCE_PREFIX /media/javh/272819b5-376d-43c6-be18-84a0d64122c6/javh/Documentos/puzzlebot/src/p2p)
+  set(p2p_DEVEL_PREFIX /media/javh/272819b5-376d-43c6-be18-84a0d64122c6/javh/Documentos/puzzlebot/devel)
   set(p2p_INSTALL_PREFIX "")
   set(p2p_PREFIX ${p2p_DEVEL_PREFIX})
 else()
   set(p2p_SOURCE_PREFIX "")
   set(p2p_DEVEL_PREFIX "")
-  set(p2p_INSTALL_PREFIX /home/melissa/Documentos/manchester/puzzlebot/install)
+  set(p2p_INSTALL_PREFIX /media/javh/272819b5-376d-43c6-be18-84a0d64122c6/javh/Documentos/puzzlebot/install)
   set(p2p_PREFIX ${p2p_INSTALL_PREFIX})
 endif()
 
@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/melissa/Documentos/manchester/puzzlebot/install/lib;/opt/ros/melodic/lib)
+    foreach(path /media/javh/272819b5-376d-43c6-be18-84a0d64122c6/javh/Documentos/puzzlebot/install/lib;/opt/ros/melodic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

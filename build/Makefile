@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/melissa/Documentos/manchester/puzzlebot/src
+CMAKE_SOURCE_DIR = /media/javh/272819b5-376d-43c6-be18-84a0d64122c6/javh/Documentos/puzzlebot/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/melissa/Documentos/manchester/puzzlebot/build
+CMAKE_BINARY_DIR = /media/javh/272819b5-376d-43c6-be18-84a0d64122c6/javh/Documentos/puzzlebot/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -137,9 +137,9 @@ test/fast: test
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/melissa/Documentos/manchester/puzzlebot/build/CMakeFiles /home/melissa/Documentos/manchester/puzzlebot/build/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /media/javh/272819b5-376d-43c6-be18-84a0d64122c6/javh/Documentos/puzzlebot/build/CMakeFiles /media/javh/272819b5-376d-43c6-be18-84a0d64122c6/javh/Documentos/puzzlebot/build/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/melissa/Documentos/manchester/puzzlebot/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /media/javh/272819b5-376d-43c6-be18-84a0d64122c6/javh/Documentos/puzzlebot/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
